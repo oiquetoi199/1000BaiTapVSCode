@@ -12,9 +12,22 @@ void nhapTuDong(int a[][MAX], int row, int col)
     }
 }
 
+// b co phai con a khong
 void bCona(int a[MAX][MAX], int b[MAX][MAX], int rowa,  int cola, int rowb, int colb)
 {
-
+    int vtDau = b[0][0];
+    for (int i = 0; i < rowa; i++)
+    {
+        for (int j = 0; j < cola; j++)
+        {
+            if ((rowa - i) < rowb || (cola - i) < colb)
+            {
+                break;
+            }
+        }
+        
+    }
+    
 }
 
 int main()
