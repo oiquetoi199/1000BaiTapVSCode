@@ -15,7 +15,7 @@ void lonNhatTrenDong(float a[][MAX], int row, int col)
     }
    
     // tim gia tri nho nhat tren dong da nhap
-    int temp = a[0][0];
+    int temp = a[vtRow][0];
     for (int i = 0; i < col; i++)
     {
         if (temp < a[vtRow][i])
