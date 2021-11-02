@@ -2,6 +2,6 @@
 
 bool ktNguyenTo(int n);
 
-bool ktChinhPhuont(int n);
+bool ktChinhPhuong(int n);
 
 bool ktHoanThien(int n);
