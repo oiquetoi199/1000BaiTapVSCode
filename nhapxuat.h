@@ -12,4 +12,6 @@ void xuatMang(dataType a[][MAX], int row, int col);
 template <class dataType>
 void xuatMang2(dataType a[][MAX + 2], int row, int col);
 
+template <class dataType>
+void nhapMangTuDong(dataType a[][MAX], int row, int col);
 #include "nhapXuat.tpp"

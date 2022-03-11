@@ -38,3 +38,17 @@ void xuatMang2(dataType a[][MAX + 2], int row, int col)
         cout << endl;
     } 
 }
+
+
+template <class dataType>
+void nhapMangTuDong(dataType a[][MAX],int row,int col)
+{
+    int n = 1;
+    for(int i = 0; i < row; i++)
+    {
+        for( int j = 0; j < col; j++)
+        {
+            a[i][j] = n++;
+        }
+    }
+}
